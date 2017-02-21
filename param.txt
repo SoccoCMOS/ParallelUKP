@@ -1,0 +1,32 @@
+   int N; // Taille de la population
+   float p; // Taux de population intermédiaire
+   float Pc; // Probabilité de croisement
+   float Pm; // Probabilité de mutation
+   char select_str; // Stratégie de sélection
+   char rempl_str; // Stratégie de remplacement
+   char mut_meth;  // Méthode de mutation
+   char crois_meth; // Méthode de croisement
+   //int k; // Nombre d'adversaires par tournois
+   char critere_arret; // Critère d'arrêt de l'algorithme
+   int nb_it; // Nombre d'itérations maximales 
+   float epsilon; // Ecart maximal toléré
+   float taux_evol; // Taux d'évolution
+   float seuil_Reparation; // Seuil sur le n
+
+
+begin data
+5000
+a
+0.7
+0.8
+0.1
+e
+e
+e
+2
+i
+2
+0
+0
+0.02
+end data
